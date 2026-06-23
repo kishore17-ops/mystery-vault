@@ -319,7 +319,7 @@ contactForm.addEventListener('submit', async (e) => {
   const formData = new FormData(contactForm);
 
   try {
-    const response = await fetch('https://formspree.io/f/mysteryvalult@gmail.com', {
+    const response = await fetch('https://formspree.io/f/mrewbgbg', {
       method: 'POST',
       headers: { 'Accept': 'application/json' },
       body: formData
