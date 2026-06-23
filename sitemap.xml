@@ -1,44 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article1.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article2.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article3.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article4.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article5.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article6.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article7.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article8.html</loc>
-  </url>
-
-  <url>
-    <loc>https://mystery-vault-one.vercel.app/article9.html</loc>
-  </url>
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#home</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#featured</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#articles</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#categories</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#about</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/index.html#contact</loc>
+</url>
+<url>
+  <loc>http://mystery-vault-one.vercel.app/mary-celeste.html</loc>
+</url>
 </urlset>
