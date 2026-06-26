@@ -16,13 +16,16 @@
   <meta property="og:description" content="A premium archive of the world's most haunting unsolved cases." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="logo.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Mystery Vault" />
   <meta name="twitter:description" content="Uncovering the World's Darkest Mysteries" />
+  <meta name="twitter:image" content="logo.png" />
 
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>" />
+  <!-- Favicon now uses the uploaded logo -->
+  <link rel="icon" type="image/png" href="logo.png" />
 
   <!-- Fonts: Cinzel for cinematic display, Cormorant for elegant accents, Inter for clean body -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +33,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Small inline styles for the new logo image (move into style.css if you prefer) -->
+  <style>
+    .logo-img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .footer-brand .logo-img {
+      height: 48px;
+      width: 48px;
+    }
+  </style>
 </head>
 <body>
 
@@ -40,7 +59,7 @@
   <header class="navbar" id="navbar">
     <div class="nav-inner">
       <a href="index.html#home" class="logo">
-        <span class="logo-mark">◈</span>
+        <img src="logo.png" alt="Mystery Kaaran Files Logo" class="logo-img" />
         <span class="logo-text">MYSTERY <em>VAULT</em></span>
       </a>
 
@@ -260,7 +279,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.html#home" class="logo">
-          <span class="logo-mark">◈</span>
+          <img src="logo.png" alt="Mystery Kaaran Files Logo" class="logo-img" />
           <span class="logo-text">MYSTERY <em>VAULT</em></span>
         </a>
         <p>An archive of the unexplained. Updated weekly.</p>
